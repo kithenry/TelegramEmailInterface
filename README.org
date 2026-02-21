@@ -13,8 +13,8 @@
 - Go to _url_ and get an app password for your gmail account.
 - Go to this telegram post _url_ and follow the prompts to create a bot and get its token.
 - Run the script t2mail.py
-- In telegram, send a message to the bot with the command /send. As in
-  - /send message
+- In telegram, send a message to the bot with the command /send_mail. As in
+  - /send_mail message
     - where message follows the format : R: recepient_email| S: email_subject | C: email_content
 
 * How it works
