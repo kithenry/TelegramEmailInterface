@@ -1,17 +1,16 @@
 * Telegram To Mail
 
 * App description
-- A script to send email messages from telegram.
+- A script to support sending email messages from the Telegram app.
 
 
-* Dependencies
-- Mailer script
-- Gmail app password
-- Telegram bot token
+* Extern Dependencies
+- The telegram library
 
 * Configuration
-- Go to _url_ and get an app password for your gmail account.
-- Go to this telegram post _url_ and follow the prompts to create a bot and get its token.
+- Get an app password for your email.
+- Create a bot with bot father and get its token.
+- Populate the necessary fields in the config with the data from the previous fields.
 - Run the script t2mail.py
 - In telegram, send a message to the bot with the command /send_mail. As in
   - /send_mail message
